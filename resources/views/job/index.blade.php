@@ -24,12 +24,12 @@
                         name="min_salary" 
                         value="{{request('min_salary')}}" 
                         placeholder="From"
-                        formId="filtering-form"/>
+                        formRef="filters"/>
                     <x-text-input 
                         name="max_salary" 
                         value="{{request('max_salary')}}" 
                         placeholder="To"
-                        formId="filtering-form"/>
+                        formRef="filters"/>
                 </div>
                 </div>
 
